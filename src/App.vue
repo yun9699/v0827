@@ -1,5 +1,5 @@
 <script setup>
-import { RouterView, RouterLink } from 'vue-router';
+import { RouterView , RouterLink} from 'vue-router';
 </script>
 
 <template>
@@ -13,9 +13,8 @@ import { RouterView, RouterLink } from 'vue-router';
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav">
                 <RouterLink to="/" class="nav-item nav-link active">Home</RouterLink>
-                <RouterLink to="/about" class="nav-item nav-link">About</RouterLink>
-                <a href="#" class="nav-item nav-link">Services</a>
-                <a href="#" class="nav-item nav-link">About</a>
+                <RouterLink to="/about" class="nav-item nav-link ">About</RouterLink>
+                <RouterLink to="/todo" class="nav-item nav-link ">Todo</RouterLink>
                 <a href="#" class="nav-item nav-link">Contact</a>
             </div>
             <div class="navbar-nav ms-auto">
@@ -27,8 +26,8 @@ import { RouterView, RouterLink } from 'vue-router';
 </nav>
 
   <RouterView></RouterView>
+  
 </template>
 
 <style scoped>
-
 </style>
